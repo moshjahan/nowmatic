@@ -1,0 +1,40 @@
+<!--
+	Summer of Code 2022 
+	Mosh Jahán
+	moshjahan@gmail.com
+-->
+
+<div id="AudioSynthesiserWidgetContainer">
+
+  <div id="SynthesizerName">Now Synthesizer</div>
+  
+  <div id="SequencerGrid"></div>
+  
+  <div class="flex">
+    <div>
+	    <button id="PatternRun">⏯️</button>
+    </div>
+    <div class="OscillatorOneTypes">
+			<label>Oscillator One</label>
+	    <button class="oscillator-type" data-osc="1" data-type="sine">Sine</button>
+	    <button class="oscillator-type" data-osc="1" data-type="square">Square</button>
+	    <button class="oscillator-type" data-osc="1" data-type="sawtooth">Sawtooth</button>
+	    <button class="oscillator-type" data-osc="1" data-type="triangle">Triangle</button>
+    </div>
+    <div class="OscillatorTwoTypes">
+			<label>Oscillator Two</label>
+	    <button class="oscillator-type" data-osc="2" data-type="sine">Sine</button>
+	    <button class="oscillator-type" data-osc="2" data-type="square">Square</button>
+	    <button class="oscillator-type" data-osc="2" data-type="sawtooth">Sawtooth</button>
+	    <button class="oscillator-type" data-osc="2" data-type="triangle">Triangle</button>
+    </div>
+  </div>
+  <div>
+    <div>
+  		<input type="range" id="Flange" name="flange" 
+         min="0" max="10" value="5" step="0.1">
+  		<label for="flange">Flange</label>
+		</div>
+  </div>
+  
+</div>

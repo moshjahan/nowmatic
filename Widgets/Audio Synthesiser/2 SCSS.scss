@@ -1,0 +1,114 @@
+/*
+	Summer of Code 2022 
+	Mosh Jahán
+	moshjahan@gmail.com
+*/
+      
+#AudioSynthesizerWidgetContainer
+{
+  margin: 0;
+  padding: 0;
+}
+
+#SynthesizerName
+{
+  margin: 0;
+  padding: 8px 0 16px 0;
+  font-size: 2em;
+  color: #ABC;
+}
+
+.flex
+{
+  display: flex;
+  _justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grid-lane
+{
+	display: flex; 
+}
+
+.note
+{
+  margin: 2px 0px;
+  padding: 4px 8px;
+  width: 40px;
+  height: 30px;
+  font-size: 1.0em;
+}
+.natural
+{
+  border: 1px solid #444;
+  color: #444;
+}
+.sharp
+{
+  border: 1px solid #444;
+  background-color: #444;
+  color: #fff;
+  font-size: 0.8em;
+}
+
+.bar
+{
+  margin: 2px 2px 2px 0px;
+  width: 30px;
+  height: 30px;
+}
+.bar.start
+{
+  margin-left: 4px;
+  border: 1px solid #666;
+}
+.bar.step
+{
+  border: 1px solid #aaa;
+}
+.bar.step-selected
+{
+  background-color: #444;
+}
+
+.light
+{
+  margin: 2px 2px 2px 0px;
+  width: 30px;
+  height: 10px;
+}
+.light.start
+{
+  margin-left: 4px;
+  border: 1px solid #666;
+}
+.light.step
+{
+  border: 1px solid #aaa;
+}
+.light.illuminate
+{
+  background-color: #0F0;
+}
+
+button.oscillator-type
+{
+  padding: 4px;
+  border: 3px solid black;
+  font-size: 0.9em;
+}
+
+button
+{
+  outline: none;
+  border: 0;
+  padding: 0;
+  font-size: 3em;
+}
+
+input
+{
+	outline: none;
+}
+
